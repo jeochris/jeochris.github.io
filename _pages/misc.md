@@ -73,6 +73,7 @@ nav: false
   }
   .misc-section {
     margin-bottom: 2.5rem;
+    scroll-margin-top: 70px;
   }
   .misc-section h2 {
     font-size: 1.3rem;
@@ -151,21 +152,6 @@ nav: false
 <h2>📷 Photos</h2>
 <p>Shots I've taken</p>
 <div class="photo-grid">
-  <img src="/assets/img/misc/photos/000037060016.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000037070006.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000037070012.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000037070017.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000037070033.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000037080004.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000037080022.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000037080029.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000077380015.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000077380022.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000077380023.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000077380029.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000093910005.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000093910006.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000093910038.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000397900003.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000397900021.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000397900026.jpg" alt="Photo">
@@ -179,20 +165,34 @@ nav: false
   <img src="/assets/img/misc/photos/000397920021.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000397920023.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000397920028.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000077380015.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000077380022.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000077380029.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/IMG_3019.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/IMG_3032.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/IMG_3035.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/IMG_4645.JPG" alt="Photo">
-  <img src="/assets/img/misc/photos/P1160110.JPG" alt="Photo">
-  <img src="/assets/img/misc/photos/P2110222.JPG" alt="Photo">
-  <img src="/assets/img/misc/photos/P2110250.JPG" alt="Photo">
-  <img src="/assets/img/misc/photos/P2140472.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/000093910005.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000093910006.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000093910038.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000037060016.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000037070006.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000037070012.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000037070017.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000037070033.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000037080004.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000037080022.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000037080029.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/P2190389.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P2190434.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P2190451.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P2190452.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P2190562.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P2190568.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P1160110.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P2110222.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P2110250.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P2140472.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P8280478.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P8280540.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P8290764.JPG" alt="Photo">
