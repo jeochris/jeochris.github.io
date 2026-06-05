@@ -27,8 +27,8 @@ latest_posts:
   @media (max-width: 576px) {
     .profile {
       float: none !important;
-      width: 70% !important;
-      max-width: 70% !important;
+      width: 80% !important;
+      max-width: 80% !important;
       margin: 0 auto 1rem auto !important;
       display: block !important;
     }
