@@ -86,7 +86,7 @@ layout: default
           {% if project.img %}
             <div class="col-sm-3 abbr">
               {% if project.lead %}
-                <abbr class="badge rounded w-100" style="background-color: #2e7d32;">Lead</abbr>
+                <abbr class="badge rounded w-100" style="background-color: #2e7d32; color: white;">Lead</abbr>
               {% endif %}
               <a href="{{ project.url | relative_url }}">
                 {% include figure.liquid path=project.img class="img-fluid rounded z-depth-1" alt=project.title loading="eager" %}
