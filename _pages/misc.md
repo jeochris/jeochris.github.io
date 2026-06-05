@@ -66,6 +66,11 @@ nav_order: 4
       grid-template-columns: repeat(3, 1fr);
       justify-items: center;
     }
+    .sports-grid img {
+      width: 100%;
+      height: auto;
+      max-width: 100%;
+    }
   }
   .placeholder-box {
     background-color: var(--global-divider-color);
