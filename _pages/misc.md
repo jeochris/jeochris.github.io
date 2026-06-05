@@ -87,7 +87,7 @@ nav: false
   }
 </style>
 
-<div class="misc-section">
+<div class="misc-section" id="movies">
 <h2>🎬 Movies</h2>
 <p>Films I rated 5 stars</p>
 <div class="poster-grid">
@@ -147,7 +147,7 @@ nav: false
 
 ---
 
-<div class="misc-section">
+<div class="misc-section" id="photos">
 <h2>📷 Photos</h2>
 <p>Shots I've taken</p>
 <div class="photo-grid">
@@ -203,7 +203,7 @@ nav: false
 
 ---
 
-<div class="misc-section">
+<div class="misc-section" id="music">
 <h2>🎵 Music</h2>
 <p>Albums I've liked</p>
 <div class="album-grid">
@@ -259,7 +259,7 @@ nav: false
 
 ---
 
-<div class="misc-section">
+<div class="misc-section" id="sports">
 <h2>🏅 Sports</h2>
 <p>Teams I support</p>
 <div class="sports-grid">
