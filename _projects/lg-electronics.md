@@ -5,7 +5,7 @@ description: "Built RAG-based multimodal chatbot with webOS knowledge base, auto
 year: 2024
 importance: 2
 selected: true
-img: assets/img/project_preview/lg.webp
+img: assets/img/project_preview/lg.png
 ---
 
 **Co-op with LG Electronics** · May. 2024 – Dec. 2024

@@ -13,8 +13,7 @@ social: false
 
 announcements:
   enabled: true
-  scrollable: true
-  limit: 5
+  scrollable: false
 
 latest_posts:
   enabled: false
@@ -24,6 +23,6 @@ latest_posts:
 
 📍 Previously, I worked at Language Lab in [LG AI Research](https://www.lgresearch.ai/). I received my M.S. (2026) and B.S. (2024, *with Highest Honors*) in Computer Science from [Yonsei University](https://yonsei.ac.kr/), where I conducted research at [MIR Lab (now SNU PI Lab)](https://pi.snu.ac.kr/) under supervision of Prof. Youngjae Yu, also mentored by Prof. [Dae Hyun Kim](https://dhkim16.github.io/)
 
-🤖 I am passionate about advancing multimodal AI systems that deliver real-world impact across diverse applications. My work focuses on developing and evaluating VLMs and LLMs, and building intent-aligned systems such as RAG or agent-based dialogue systems, while extending them to new domains such as UI/UX. Outside of work, I enjoy watching [movies](/misc/), taking [photos](/misc/), listening to [music](/misc/), and following [sports](/misc/).
+🤖 I am passionate about advancing *multimodal AI* systems that deliver *real-world impact* across diverse applications. My work focuses on *developing and evaluating VLMs and LLMs*, and building *intent-aligned systems such as RAG or agent-based dialogue* systems, while extending them to *new domains such as UI/UX*. Outside of work, I enjoy watching [movies](/misc/), taking [photos](/misc/), listening to [music](/misc/), and following [sports](/misc/).
 
 Please feel free to reach out!

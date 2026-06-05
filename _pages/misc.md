@@ -53,6 +53,19 @@ nav: false
     width: auto;
     object-fit: contain;
   }
+  @media (max-width: 576px) {
+    .photo-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+    .album-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .sports-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-items: center;
+    }
+  }
   .placeholder-box {
     background-color: var(--global-divider-color);
     opacity: 0.25;
@@ -138,12 +151,53 @@ nav: false
 <h2>📷 Photos</h2>
 <p>Shots I've taken</p>
 <div class="photo-grid">
-  <div class="placeholder-box" style="aspect-ratio: 4/3;"></div>
-  <div class="placeholder-box" style="aspect-ratio: 4/3;"></div>
-  <div class="placeholder-box" style="aspect-ratio: 4/3;"></div>
-  <div class="placeholder-box" style="aspect-ratio: 4/3;"></div>
-  <div class="placeholder-box" style="aspect-ratio: 4/3;"></div>
-  <div class="placeholder-box" style="aspect-ratio: 4/3;"></div>
+  <img src="/assets/img/misc/photos/000037060016.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000037070006.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000037070012.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000037070017.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000037070033.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000037080004.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000037080022.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000037080029.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000077380015.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000077380022.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000077380023.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000077380029.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000093910005.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000093910006.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000093910038.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000397900003.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000397900021.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000397900026.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000397900027.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000397900028.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000397900038.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000397920007.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000397920010.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000397920013.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000397920020.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000397920021.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000397920023.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/000397920028.jpg" alt="Photo">
+  <img src="/assets/img/misc/photos/IMG_3019.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/IMG_3032.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/IMG_3035.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/IMG_4645.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P1160110.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P2110222.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P2110250.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P2140472.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P2190389.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P2190434.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P2190451.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P2190452.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P2190562.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P2190568.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P8280478.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P8280540.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P8290764.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P8311121.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/P8311343.JPG" alt="Photo">
 </div>
 </div>
 
@@ -153,14 +207,53 @@ nav: false
 <h2>🎵 Music</h2>
 <p>Albums I've liked</p>
 <div class="album-grid">
-  <div class="placeholder-box" style="aspect-ratio: 1/1;"></div>
-  <div class="placeholder-box" style="aspect-ratio: 1/1;"></div>
-  <div class="placeholder-box" style="aspect-ratio: 1/1;"></div>
-  <div class="placeholder-box" style="aspect-ratio: 1/1;"></div>
-  <div class="placeholder-box" style="aspect-ratio: 1/1;"></div>
-  <div class="placeholder-box" style="aspect-ratio: 1/1;"></div>
-  <div class="placeholder-box" style="aspect-ratio: 1/1;"></div>
-  <div class="placeholder-box" style="aspect-ratio: 1/1;"></div>
+  <img src="/assets/img/misc/albums/samurai.jpg" alt="Samurai - Lupe Fiasco">
+  <img src="/assets/img/misc/albums/bomb.jpg" alt="BOMB - ILLIT">
+  <img src="/assets/img/misc/albums/hollywoods-bleeding.jpg" alt="Hollywood's Bleeding - Post Malone">
+  <img src="/assets/img/misc/albums/miniseries-2.jpg" alt="Miniseries 2 - SUMIN & slom">
+  <img src="/assets/img/misc/albums/the-bends.jpg" alt="The Bends - Radiohead">
+  <img src="/assets/img/misc/albums/in-rainbows.jpg" alt="In Rainbows - Radiohead">
+  <img src="/assets/img/misc/albums/ok-computer.jpg" alt="OK Computer - Radiohead">
+  <img src="/assets/img/misc/albums/graduation.jpg" alt="Graduation - Kanye West">
+  <img src="/assets/img/misc/albums/mbdtf.jpg" alt="My Beautiful Dark Twisted Fantasy - Kanye West">
+  <img src="/assets/img/misc/albums/definitely-maybe.jpg" alt="Definitely Maybe - Oasis">
+  <img src="/assets/img/misc/albums/morning-glory.jpg" alt="Morning Glory - Oasis">
+  <img src="/assets/img/misc/albums/harrys-house.jpg" alt="Harry's House - Harry Styles">
+  <img src="/assets/img/misc/albums/flash-and-core.jpg" alt="Flash and Core - Yerin Baek">
+  <img src="/assets/img/misc/albums/our-love-is-great.jpg" alt="Our Love Is Great - Yerin Baek">
+  <img src="/assets/img/misc/albums/every-letter-i-sent-you.jpg" alt="Every Letter I Sent You - Yerin Baek">
+  <img src="/assets/img/misc/albums/wish-you-were-here.jpg" alt="Wish You Were Here - Pink Floyd">
+  <img src="/assets/img/misc/albums/dark-side-of-the-moon.jpg" alt="The Dark Side of the Moon - Pink Floyd">
+  <img src="/assets/img/misc/albums/adele-30.jpg" alt="30 - Adele">
+  <img src="/assets/img/misc/albums/dawn-fm.jpg" alt="Dawn FM - The Weeknd">
+  <img src="/assets/img/misc/albums/random-access-memories.jpg" alt="Random Access Memories - Daft Punk">
+  <img src="/assets/img/misc/albums/norman-fucking-rockwell.jpg" alt="Norman Fucking Rockwell! - Lana Del Rey">
+  <img src="/assets/img/misc/albums/divide.jpg" alt="÷ (Divide) - Ed Sheeran">
+  <img src="/assets/img/misc/albums/nowitzki.jpg" alt="NOWITZKI - Beenzino">
+  <img src="/assets/img/misc/albums/future-nostalgia.jpg" alt="Future Nostalgia - Dua Lipa">
+  <img src="/assets/img/misc/albums/red-light.jpg" alt="Red Light - Zion.T">
+  <img src="/assets/img/misc/albums/zip.jpg" alt="Zip - Zion.T">
+  <img src="/assets/img/misc/albums/ibang-in.jpg" alt="이방인 - E Sens">
+  <img src="/assets/img/misc/albums/yeokseong.jpg" alt="역성 - 이승윤">
+  <img src="/assets/img/misc/albums/love-poem.jpg" alt="Love Poem - IU">
+  <img src="/assets/img/misc/albums/palette.jpg" alt="Palette - IU">
+  <img src="/assets/img/misc/albums/chat-shire.jpg" alt="Chat Shire - IU">
+  <img src="/assets/img/misc/albums/for-melancholy-brunettes.jpg" alt="For Melancholy Brunettes - Japanese Breakfast">
+  <img src="/assets/img/misc/albums/i-said-i-love-you-first.jpg" alt="I Said I Love You First - Selena Gomez & benny blanco">
+  <img src="/assets/img/misc/albums/teen-troubles.jpg" alt="Teen Troubles - The Black Skirts">
+  <img src="/assets/img/misc/albums/eternal-sunshine.jpg" alt="Eternal Sunshine - Ariana Grande">
+  <img src="/assets/img/misc/albums/love-letter-ost.jpg" alt="Love Letter OST">
+  <img src="/assets/img/misc/albums/imaginal-disk.jpg" alt="Imaginal Disk - Magdalena Bay">
+  <img src="/assets/img/misc/albums/letter-to-myself.jpg" alt="Letter to Myself - Taeyeon">
+  <img src="/assets/img/misc/albums/cho-yongpil-20.jpg" alt="20 - 조용필">
+  <img src="/assets/img/misc/albums/the-last-thing-left.jpg" alt="The Last Thing Left - Say Sue Me">
+  <img src="/assets/img/misc/albums/a-brief-inquiry.jpg" alt="A Brief Inquiry into Online Relationships - The 1975">
+  <img src="/assets/img/misc/albums/get-up.jpg" alt="Get Up - 뉴진스">
+  <img src="/assets/img/misc/albums/default.jpg" alt="디폴트 - 김사월">
+  <img src="/assets/img/misc/albums/busker-busker-1.jpg" alt="버스커버스커 1집">
+  <img src="/assets/img/misc/albums/chaluna.jpg" alt="찰나 - 최백호">
+  <img src="/assets/img/misc/albums/oksangdalbich-40.jpg" alt="40 - 옥상달빛">
+  <img src="/assets/img/misc/albums/hit-me-hard-and-soft.jpg" alt="Hit Me Hard and Soft - Billie Eilish">
 </div>
 </div>
 
@@ -172,6 +265,6 @@ nav: false
 <div class="sports-grid">
   <img src="/assets/img/misc/sports/mancity.svg" alt="Manchester City">
   <img src="/assets/img/misc/sports/celtics.svg" alt="Boston Celtics">
-  <div class="placeholder-box" style="height: 120px; width: 120px;"></div>
+  <img src="/assets/img/misc/sports/doosan.svg" alt="Doosan Bears">
 </div>
 </div>
