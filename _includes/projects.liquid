@@ -1,0 +1,36 @@
+<div class="col">
+  <a href="{% if project.redirect %}{{ project.redirect }}{% else %}{{ project.url | relative_url }}{% endif %}">
+    <div class="card h-100 hoverable">
+      <div style="padding: 8px 8px 0 8px;">
+        {% if project.lead %}
+          <abbr class="badge rounded w-100" style="background-color: #2e7d32; display: block; text-align: center; margin-bottom: 4px;">Lead</abbr>
+        {% endif %}
+        <div style="height: 140px; display: flex; align-items: center; justify-content: center; overflow: hidden;">
+          {% if project.img %}
+            <img src="{{ project.img | relative_url }}" alt="project thumbnail" loading="eager"
+                 style="max-height: 140px; width: auto; max-width: 100%; object-fit: contain;">
+          {% endif %}
+        </div>
+      </div>
+      <div class="card-body">
+        <h2 class="card-title" style="font-size: 1.15rem; line-height: 1.4;">{{ project.title }}</h2>
+        <p class="card-text" style="font-size: 0.82rem;">{{ project.description }}</p>
+        <div class="row ml-1 mr-1 p-0">
+          {% if project.github %}
+            <div class="github-icon">
+              <div class="icon" data-toggle="tooltip" title="Code Repository">
+                <a href="{{ project.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
+              </div>
+              {% if project.github_stars %}
+                <span class="stars" data-toggle="tooltip" title="GitHub Stars">
+                  <i class="fa-solid fa-star"></i>
+                  <span id="{{ project.github_stars }}-stars"></span>
+                </span>
+              {% endif %}
+            </div>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
