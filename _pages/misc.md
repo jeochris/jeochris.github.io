@@ -158,6 +158,16 @@ nav_order: 4
 <h2>📷 Photos</h2>
 <p>Shots I've taken</p>
 <div class="photo-grid">
+  <img src="/assets/img/misc/photos/000034.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/000032.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/000030.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/000023.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/000022.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/000021.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/000019.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/000016.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/000009.JPG" alt="Photo">
+  <img src="/assets/img/misc/photos/000011.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/000397900003.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000397900021.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000397900026.jpg" alt="Photo">
