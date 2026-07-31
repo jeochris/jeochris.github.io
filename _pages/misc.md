@@ -166,14 +166,12 @@ nav_order: 4
   <img src="/assets/img/misc/photos/000397900038.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000397920007.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000397920010.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000397920013.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000397920020.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000397920021.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000397920023.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000397920028.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000077380015.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000077380022.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000077380029.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/IMG_3019.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/IMG_3032.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/IMG_3035.JPG" alt="Photo">
@@ -187,18 +185,15 @@ nav_order: 4
   <img src="/assets/img/misc/photos/000037070017.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000037070033.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000037080004.jpg" alt="Photo">
-  <img src="/assets/img/misc/photos/000037080022.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/000037080029.jpg" alt="Photo">
   <img src="/assets/img/misc/photos/P2190389.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P2190434.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P2190451.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P2190452.JPG" alt="Photo">
-  <img src="/assets/img/misc/photos/P2190562.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P2190568.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P1160110.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P2110222.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P2110250.JPG" alt="Photo">
-  <img src="/assets/img/misc/photos/P2140472.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P8280478.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P8280540.JPG" alt="Photo">
   <img src="/assets/img/misc/photos/P8290764.JPG" alt="Photo">
