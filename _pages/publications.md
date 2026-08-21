@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: Publications
-description:
+description: Peer-reviewed publications by Jaehyun Jeon on multimodal AI, vision-language models, and multimodal UI/UX understanding, including work at ACL, EMNLP, and COLM.
 nav: true
 nav_order: 2
 ---

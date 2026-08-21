@@ -115,7 +115,11 @@ analytics:
 
 # For Google Search Console, see https://support.google.com/webmasters/answer/9008080?hl=en#meta_tag_verification&zippy=%2Chtml-tag
 google_site_verification: BVySvo9wfTxoP4uFzd0KqbkfDd3PTYAtqc4nOjJTd00 # your google-site-verification ID (Google Search Console)
-bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
+bing_site_verification: # your bing-site-verification ID (Bing Webmaster). Also flip enable_bing_verification to true.
+# Naver Search Advisor (https://searchadvisor.naver.com) — matters for Korean-language name searches.
+# al_folio_core's metadata.liquid has no Naver support, so the tag is emitted from _includes/head.liquid.
+# Paste only the content value of the meta tag Naver gives you, not the whole tag.
+naver_site_verification:
 
 # -----------------------------------------------------------------------------
 # Blog

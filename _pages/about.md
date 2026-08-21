@@ -2,6 +2,7 @@
 layout: about
 title: About
 permalink: /
+description: Jaehyun Jeon (전재현) — Research Engineer at NC AI working on multimodal AI, vision-language models, and dialogue systems. Previously LG AI Research, Yonsei.
 
 profile:
   align: right

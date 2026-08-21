@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description:
+description: Research and industry projects by Jaehyun Jeon — AkaLlama (Korean 70B LLM), VLM hallucination benchmarks, and applied AI with LG Electronics and Yanolja.
 nav: true
 nav_order: 3
 horizontal: false

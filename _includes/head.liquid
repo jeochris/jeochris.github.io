@@ -1,6 +1,14 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
+{% comment %}
+  Naver Search Advisor verification. metadata.liquid only knows about Google and Bing, so this
+  one is emitted here. Guarded on a non-empty value so we never ship content="".
+{% endcomment %}
+{% if site.naver_site_verification != blank %}
+  <meta name="naver-site-verification" content="{{ site.naver_site_verification }}">
+{% endif %}
+
 <!-- Schema.org Person entity. metadata.liquid only emits a WebSite/BlogPosting node, which gives
      Google nothing to attach a person to. This declares the author as a first-class entity so a
      bare-name query ("Jaehyun Jeon") can be disambiguated from the other people with that name.

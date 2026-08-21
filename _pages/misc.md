@@ -2,6 +2,7 @@
 layout: page
 title: Misc
 permalink: /misc/
+description: Outside research — the movies, film photography, music, and sports that Jaehyun Jeon keeps track of.
 nav: true
 nav_order: 4
 ---

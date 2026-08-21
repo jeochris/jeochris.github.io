@@ -38,9 +38,15 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.24 }}px, (min-width: 576px) 24vw, 76vw"{% endcapture %}
+          {% comment %}
+            Alt text is the person's name, not the filename. The default (page.profile.image) renders
+            alt="prof_pic.jpg", which is useless to screen readers and wastes the strongest
+            name-to-face signal available to image search.
+          {% endcomment %}
+          {% capture profile_image_alt %}{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}{% endcapture %}
           <div style="max-width: 80%;">
             {%
-              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+              include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile_image_alt
               cache_bust=true
             %}
           </div>
