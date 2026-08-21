@@ -26,8 +26,13 @@
         {% endif %}
       {% endif %}
       {% if entry.preview %}
+        {% comment %}
+          Alt text is the paper title, not the preview filename. The default (entry.preview) renders
+          alt="wiserUI-bench.png", which tells a screen reader nothing and wastes the image-search
+          signal. Same fix as the profile photo in _layouts/about.liquid.
+        {% endcomment %}
         {% if entry.preview contains '://' %}
-          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+          <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" alt="{{ entry.title }}">
         {% else %}
           {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
           {%
@@ -38,7 +43,7 @@
             class="preview z-depth-1 rounded"
             zoomable=true
             avoid_scaling=true
-            alt=entry.preview
+            alt=entry.title
           %}
         {% endif %}
       {% endif %}
