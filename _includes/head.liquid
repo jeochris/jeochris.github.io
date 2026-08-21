@@ -1,6 +1,51 @@
 <!-- Metadata, OpenGraph and Schema.org -->
 {% include metadata.liquid %}
 
+<!-- Schema.org Person entity. metadata.liquid only emits a WebSite/BlogPosting node, which gives
+     Google nothing to attach a person to. This declares the author as a first-class entity so a
+     bare-name query ("Jaehyun Jeon") can be disambiguated from the other people with that name.
+     Emitted once, on the homepage only, so there is a single canonical Person node for the site. -->
+{% if page.permalink == '/' %}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": "{{ '/#person' | absolute_url }}",
+      "name": "Jaehyun Jeon",
+      "givenName": "Jaehyun",
+      "familyName": "Jeon",
+      "alternateName": ["전재현", "Jae Hyun Jeon", "jeochris"],
+      "url": "{{ '/' | absolute_url }}",
+      "image": "{{ '/assets/img/prof_pic.jpg' | absolute_url }}",
+      "jobTitle": "Research Engineer",
+      "description": "Research Engineer on the DialogTech Team at NC AI, working on multimodal AI, vision-language models, and intent-aligned dialogue systems.",
+      "knowsAbout": [
+        "Multimodal AI",
+        "Vision-Language Models",
+        "Large Language Models",
+        "Retrieval-Augmented Generation",
+        "Human-Centered AI",
+        "UI/UX Understanding"
+      ],
+      "worksFor": {
+        "@type": "Organization",
+        "name": "NC AI",
+        "url": "https://nc-ai.com/"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Yonsei University",
+        "url": "https://yonsei.ac.kr/"
+      },
+      "sameAs": [
+        "https://github.com/{{ site.data.socials.github_username }}",
+        "https://www.linkedin.com/in/{{ site.data.socials.linkedin_username }}",
+        "https://scholar.google.com/citations?user={{ site.data.socials.scholar_userid }}"
+      ]
+    }
+  </script>
+{% endif %}
+
 <!-- Security: Content Security Policy -->
 <!-- Permissive CSP suitable for academic websites. Allows external images, videos, and common embed services. -->
 <!-- To customize for your needs, see: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
