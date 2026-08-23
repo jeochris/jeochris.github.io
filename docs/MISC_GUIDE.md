@@ -3,11 +3,13 @@
 ## 앨범 커버
 
 ### 파일 위치
+
 `assets/img/misc/albums/<slug>.jpg`
 
 ### 추천 소스: MusicBrainz + Cover Art Archive
 
 iTunes Search API는 아래 이유로 신뢰하기 어렵다:
+
 - 동명 아티스트/앨범을 잘못 반환하는 경우 다수
 - 싱글을 정규 앨범 대신 반환
 - 욕설 포함 앨범명 필터링 (예: Norman Fucking Rockwell)
@@ -19,6 +21,7 @@ iTunes Search API는 아래 이유로 신뢰하기 어렵다:
 #### 검색 순서
 
 1. **MusicBrainz로 MBID 조회**
+
 ```python
 import urllib.request, urllib.parse, json
 
@@ -33,6 +36,7 @@ for rg in data['release-groups']:
 ```
 
 2. **Cover Art Archive로 이미지 다운로드**
+
 ```python
 mbid = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 url = f"https://coverartarchive.org/release-group/{mbid}/front"
@@ -48,6 +52,7 @@ with open("assets/img/misc/albums/album-name.jpg", 'wb') as f:
 #### 커버에 흰 테두리가 있을 때
 
 Cover Art Archive에 같은 릴리즈의 이미지가 여러 개일 수 있다. 특정 릴리즈 ID로 전체 목록을 조회한다:
+
 ```python
 # release-group MBID로 releases 목록 조회
 url = f"https://musicbrainz.org/ws/2/release-group/{mbid}?inc=releases&fmt=json"
@@ -59,6 +64,7 @@ url = f"https://coverartarchive.org/release/{release_id}"
 #### iTunes를 써야 할 때
 
 검색이 안 될 때 Apple Music 웹에서 앨범 ID를 직접 찾아 lookup 사용:
+
 ```python
 url = f"https://itunes.apple.com/lookup?id={album_id}"
 # artworkUrl100 필드를 1200x1200 크기로 변환:
@@ -70,6 +76,7 @@ art_url = item['artworkUrl100'].replace('100x100bb', '1200x1200bb')
 ## 사진
 
 ### 파일 위치
+
 `assets/img/misc/photos/<filename>.jpg`
 
 ### 압축 필수
@@ -96,6 +103,7 @@ done
 ## 스포츠 로고
 
 ### 파일 위치
+
 `assets/img/misc/sports/<team>.svg`
 
 SVG 형식 권장. 모바일에서 `width: 100%; height: auto` CSS가 적용되어 있으므로 뷰박스가 올바르게 설정된 SVG를 사용한다.
@@ -106,10 +114,10 @@ SVG 형식 권장. 모바일에서 `width: 100%; height: auto` CSS가 적용되�
 
 ```html
 <div class="misc-section" id="section-id">
-<h2>Section Title</h2>
-<div class="grid-class">
-  <img src="/assets/img/misc/subdir/file.jpg" alt="...">
-</div>
+  <h2>Section Title</h2>
+  <div class="grid-class">
+    <img src="/assets/img/misc/subdir/file.jpg" alt="..." />
+  </div>
 </div>
 ```
 

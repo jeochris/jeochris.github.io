@@ -9,10 +9,12 @@
   <meta name="naver-site-verification" content="{{ site.naver_site_verification }}">
 {% endif %}
 
-<!-- Schema.org Person entity. metadata.liquid only emits a WebSite/BlogPosting node, which gives
-     Google nothing to attach a person to. This declares the author as a first-class entity so a
-     bare-name query ("Jaehyun Jeon") can be disambiguated from the other people with that name.
-     Emitted once, on the homepage only, so there is a single canonical Person node for the site. -->
+<!--
+  Schema.org Person entity. metadata.liquid only emits a WebSite/BlogPosting node, which gives
+  Google nothing to attach a person to. This declares the author as a first-class entity so a
+  bare-name query ("Jaehyun Jeon") can be disambiguated from the other people with that name.
+  Emitted once, on the homepage only, so there is a single canonical Person node for the site.
+-->
 {% if page.permalink == '/' %}
   <script type="application/ld+json">
     {
@@ -156,7 +158,7 @@
     --global-hover-text-color: #fff;
     --global-divider-color: #aaaaaa;
   }
-  html[data-theme="dark"] {
+  html[data-theme='dark'] {
     --global-theme-color: #2698ba;
     --global-hover-color: #2698ba;
   }
@@ -169,7 +171,9 @@
 
 <!-- Back-to-top button above fixed footer -->
 <style>
-  #back-to-top, .back-to-top, #back_to_top {
+  #back-to-top,
+  .back-to-top,
+  #back_to_top {
     bottom: 80px !important;
   }
 </style>

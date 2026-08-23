@@ -5,12 +5,18 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}{% if site.middle_name %} {{ site.middle_name }}{% endif %} {{ site.last_name }}</span>
+        <span class="font-weight-bold">
+          {{- site.first_name -}}
+          {%- if site.middle_name %} {{ site.middle_name }}{% endif %}
+          {{ site.last_name -}}
+        </span>
       {% else %}
         {{ site.title }}
       {% endif %}
     </h1>
-    {% if page.subtitle %}<p class="desc">{{ page.subtitle }}</p>{% endif %}
+    {% if page.subtitle %}
+      <p class="desc">{{ page.subtitle }}</p>
+    {% endif %}
     <div style="margin-top: 0.5rem; font-size: 1rem; line-height: 2;">
       {% if site.data.socials.email %}
         <a href="mailto:{{ site.data.socials.email }}">[E-mail]</a>&nbsp;
@@ -98,22 +104,31 @@ layout: default
                 {% include figure.liquid path=project.img class="img-fluid rounded z-depth-1" alt=project.title loading="eager" %}
               </a>
             </div>
-            <div class="col-sm-9">
+            {% assign project_col_class = 'col-sm-9' %}
           {% else %}
-            <div class="col-sm-12">
+            {% assign project_col_class = 'col-sm-12' %}
           {% endif %}
-              <div class="mb-1" style="font-weight: bolder;"><a href="{{ project.url | relative_url }}" style="color: inherit">{{ project.title }}</a></div>
-              {% if project.description %}
-                <div class="mb-1">{{ project.description }}</div>
-              {% endif %}
-              {% if project.link %}
-                <a href="{{ project.link }}" target="_blank" rel="noopener noreferrer" class="btn btn-sm z-depth-0" role="button"
-                   style="color: var(--global-text-color); border: 1px solid var(--global-text-color); padding: 0.25rem 1rem; margin-left: 0;">Link</a>
-              {% endif %}
+          <div class="{{ project_col_class }}">
+            <div class="mb-1" style="font-weight: bolder;">
+              <a href="{{ project.url | relative_url }}" style="color: inherit">{{ project.title }}</a>
             </div>
+            {% if project.description %}
+              <div class="mb-1">{{ project.description }}</div>
+            {% endif %}
+            {% if project.link %}
+              <a
+                href="{{ project.link }}"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-sm z-depth-0"
+                role="button"
+                style="color: var(--global-text-color); border: 1px solid var(--global-text-color); padding: 0.25rem 1rem; margin-left: 0;"
+                >Link</a
+              >
+            {% endif %}
+          </div>
         </div>
       {% endfor %}
     </div>
-
   </article>
 </div>

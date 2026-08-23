@@ -3,12 +3,18 @@
     <div class="card h-100 hoverable">
       <div style="padding: 8px 8px 0 8px;">
         {% if project.lead %}
-          <abbr class="badge rounded w-100" style="background-color: #2e7d32; color: white; display: block; text-align: center; margin-bottom: 4px;">Lead</abbr>
+          <abbr class="badge rounded w-100" style="background-color: #2e7d32; color: white; display: block; text-align: center; margin-bottom: 4px;"
+            >Lead</abbr
+          >
         {% endif %}
         <div style="height: 140px; display: flex; align-items: center; justify-content: center; overflow: hidden;">
           {% if project.img %}
-            <img src="{{ project.img | relative_url }}" alt="project thumbnail" loading="eager"
-                 style="max-height: 140px; width: auto; max-width: 100%; object-fit: contain;">
+            <img
+              src="{{ project.img | relative_url }}"
+              alt="project thumbnail"
+              loading="eager"
+              style="max-height: 140px; width: auto; max-width: 100%; object-fit: contain;"
+            >
           {% endif %}
         </div>
       </div>
