@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am joining <a href="https://nc-ai.com/" target="_blank">NC AI</a> as a Research Engineer!
+I am joining <a href="https://nc-ai.com/" target="_blank">NC AI</a> as a Research Engineer at DialogTech Team!

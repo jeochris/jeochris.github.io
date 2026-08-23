@@ -8,12 +8,12 @@ middle_name:
 last_name: Jeon
 contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  👋 Hello! I'm Jaehyun, a Research Engineer at DialogTech Team in NC AI.
-  📍 Previously, I worked at Language Lab in LG AI Research. I received my M.S. (2026) and B.S. (2024, with Highest Honors) in Computer Science from Yonsei University, where I conducted research at MIR Lab (now SNU PI Lab) under supervision of Prof. Youngjae Yu, also mentored by Prof. Dae Hyun Kim.
+  👋 Hello! I'm Jaehyun, an AI Scientist at EXAONE Lab in LG AI Research.
+  📍 Previously, I worked at DialogTech Team in NC AI, and at Language Lab in LG AI Research. I received my M.S. (2026) and B.S. (2024, with Highest Honors) in Computer Science from Yonsei University, where I conducted research at MIR Lab (now SNU PI Lab) under supervision of Prof. Youngjae Yu, also mentored by Prof. Dae Hyun Kim.
   🤖 I am passionate about advancing multimodal AI systems that deliver real-world impact across diverse applications. My work focuses on developing and evaluating VLMs and LLMs, and building intent-aligned systems such as RAG or agent-based dialogue systems, while extending them to new domains such as UI/UX.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
-keywords: Jaehyun Jeon, 전재현, jeochris, NC AI, LG AI Research, Yonsei University, multimodal AI, vision language models, VLM, LLM, RAG, research engineer # add your own keywords or leave empty
+keywords: Jaehyun Jeon, 전재현, jeochris, LG AI Research, EXAONE, Yonsei University, multimodal AI, vision language models, VLM, LLM, RAG, AI scientist # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚡ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

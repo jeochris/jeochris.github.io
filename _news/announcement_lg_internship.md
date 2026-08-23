@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I am starting a research engineer internship at <a href="https://www.lgresearch.ai/" target="_blank">LG AI Research</a>!
+I am starting a Research Engineer internship at Language Lab in <a href="https://www.lgresearch.ai/" target="_blank">LG AI Research</a>!
