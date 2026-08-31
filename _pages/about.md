@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-description: Jaehyun Jeon (전재현) — AI Scientist at LG AI Research (EXAONE Lab). Multimodal AI, vision-language models, dialogue systems. Previously NC AI, Yonsei.
+description: Hello! I'm Jaehyun, an AI Scientist at EXAONE Lab in LG AI Research. Previously, I worked at DialogTech Team in NC AI, and at Language Lab in LG AI Research.
 
 profile:
   align: right
