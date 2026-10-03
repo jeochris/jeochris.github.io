@@ -2,7 +2,7 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Research and industry projects by Jaehyun Jeon — AkaLlama (Korean 70B LLM), VLM hallucination benchmarks, and applied AI with LG Electronics and Yanolja.
+description: Research and industry projects by Jaehyun Jeon — APEX (multi-agent patent drafting), AkaLlama (Korean 70B LLM), VLM hallucination benchmarks, and applied AI with LG Electronics and Yanolja.
 nav: true
 nav_order: 3
 horizontal: false
