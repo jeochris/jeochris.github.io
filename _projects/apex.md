@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "APEX: AI-Powered Patent Specification Drafting Platform via Multi-Agent Pipeline"
+title: "AI-Powered Patent Specification Drafting Platform via Multi-Agent Pipeline"
 description: "Built a platform for automated patent specification drafting using a multi-agent pipeline with parallel subagents"
 year: 2026
 importance: 1
