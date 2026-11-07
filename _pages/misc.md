@@ -238,6 +238,7 @@ nav_order: 4
   <img src="/assets/img/misc/albums/dark-side-of-the-moon.jpg" alt="The Dark Side of the Moon - Pink Floyd">
   <img src="/assets/img/misc/albums/adele-30.jpg" alt="30 - Adele">
   <img src="/assets/img/misc/albums/dawn-fm.jpg" alt="Dawn FM - The Weeknd">
+  <img src="/assets/img/misc/albums/hurry-up-tomorrow.jpg" alt="Hurry Up Tomorrow - The Weeknd">
   <img src="/assets/img/misc/albums/random-access-memories.jpg" alt="Random Access Memories - Daft Punk">
   <img src="/assets/img/misc/albums/norman-fucking-rockwell.jpg" alt="Norman Fucking Rockwell! - Lana Del Rey">
   <img src="/assets/img/misc/albums/divide.jpg" alt="÷ (Divide) - Ed Sheeran">
@@ -266,6 +267,11 @@ nav_order: 4
   <img src="/assets/img/misc/albums/chaluna.jpg" alt="찰나 - 최백호">
   <img src="/assets/img/misc/albums/oksangdalbich-40.jpg" alt="40 - 옥상달빛">
   <img src="/assets/img/misc/albums/hit-me-hard-and-soft.jpg" alt="Hit Me Hard and Soft - Billie Eilish">
+  <img src="/assets/img/misc/albums/circle.jpg" alt="Circle - 마이앤트메리">
+  <img src="/assets/img/misc/albums/just-pop.jpg" alt="Just Pop - 마이앤트메리">
+  <img src="/assets/img/misc/albums/ilsang-dabansa.jpg" alt="일상다반사 - 롤러코스터">
+  <img src="/assets/img/misc/albums/black-holes-and-revelations.jpg" alt="Black Holes and Revelations - Muse">
+  <img src="/assets/img/misc/albums/songs-in-the-key-of-life.jpg" alt="Songs in the Key of Life - Stevie Wonder">
 </div>
 </div>
 
